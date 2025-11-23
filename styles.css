@@ -1,0 +1,124 @@
+body {
+    font-family: 'Lora', 'Montserrat', Arial, sans-serif;
+    background: #fbeaf3;
+    margin: 0;
+    color: #a85d8c;
+}
+
+header {
+    background: #fff0f6;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    color: #c94f7c;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+nav {
+    width: 240px;
+    background: linear-gradient(180deg, #e7b7d6 80%, #c94f7c 100%);
+    color: #fff;
+    padding: 40px 15px 20px 15px;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.07);
+    border-radius: 0 12px 12px 0;
+}
+
+nav h2 {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 18px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+nav ul li a:hover {
+    color: #ffd6e7;
+}
+
+main {
+    flex: 1;
+    padding: 50px 60px;
+    background: #fff6fa;
+    border-radius: 0 12px 12px 0;
+    margin: 30px 30px 30px 0;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+main p {
+    font-size: 1.2em;
+    color: #c94f7c;
+    margin-bottom: 30px;
+}
+
+main ul {
+    padding-left: 0;
+}
+
+main ul li {
+    margin-bottom: 35px;
+}
+
+main ul li span {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3em;
+    color: #c94f7c;
+    font-weight: 700;
+}
+
+main ul li img {
+    width: 220px;
+    border-radius: 12px;
+    margin-top: 15px;
+    box-shadow: 0 2px 8px rgba(201,79,124,0.09);
+}
+
+section {
+    margin-top: 40px;
+    background: #ffe4f0;
+    padding: 28px 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(201,79,124,0.07);
+}
+
+section h2 {
+    color: #c94f7c;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 18px;
+}
+
+footer {
+    background: linear-gradient(90deg, #e7b7d6 0%, #c94f7c 100%);
+    color: #fff;
+    text-align: center;
+    padding: 18px 0;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    border-radius: 0 0 12px 12px;
+}
